@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Content from '../Content/Content'
 import './App.scss'
+import Rate from '../Rate/Rate'
 
 function App() {
   return (
     <>
-      <Content />
+      <Rate />
     </>
   )
 }

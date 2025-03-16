@@ -1,0 +1,37 @@
+main {
+    display: flex;
+    width: 300px;
+    height: 300px;    
+}
+
+.red {
+    background-color: #a9433c;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: rgb(252, 252, 251) 0px 0px 30px;
+    span {
+        background-color: #d5635a;
+    }
+}
+.green {
+    background-color: #04795f;
+    color: white;
+    span {
+        background-color: #39a188;
+    }
+}
+.blue {
+    background-color: #0f7885;
+    color: white;
+    span {
+        background-color: #40a6b3;
+    }
+}
+.black {
+    background-color: black;
+    color: white;
+    span {
+        background-color: #363434;
+    }
+}
+

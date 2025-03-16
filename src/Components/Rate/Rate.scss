@@ -1,6 +1,42 @@
-.cardList {
+.tariff {
     display: flex;
-    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    gap: 30px;
+    padding: 20px;
+}
+
+.card_header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid;
+    h1 {
+        font-weight: lighter;
+    }
+}
+.card_price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 30px 10px;
+    margin-top: 2px;
+    .card_currency{
+        align-self: flex-start;
+    }
+    .card_name {
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+.card_speed {
+    text-align: center;
+    color: #7b8186;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+.card_footer {
+    padding: 10px;
+    background-color: #dbdbdb;
+    text-align: center;
+    line-height: 170%;
+    color: #7b8186;
 }
